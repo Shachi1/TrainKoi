@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="10dp"
+    tools:context=".Page3">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="364dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/tracks" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/arrivingTimeButton"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonbackground"
+            android:text="@string/ariving_button_content"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/locationButton"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonbackground"
+            android:text="@string/location_button_content"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/reachingTimeButton"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonbackground"
+            android:text="@string/reaching_button_content"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/background"
+    tools:context=".Page2">
+
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/trainlogo" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/from" />
+
+        <AutoCompleteTextView
+            android:id="@+id/fromId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/from_edittext_hint"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/hint"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:textCursorDrawable="@color/ash"
+            android:backgroundTint="@color/ash"
+            android:inputType="textPhonetic"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:src="@drawable/to" />
+
+        <AutoCompleteTextView
+            android:id="@+id/toId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/to_edittext_hint"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/hint"
+            android:layout_gravity="center"
+            android:textCursorDrawable="@color/ash"
+            android:backgroundTint="@color/ash"
+            android:inputType="textPhonetic"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/train" />
+
+
+        <AutoCompleteTextView
+            android:id="@+id/select_train"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/ash"
+            android:hint="@string/train_edittext_hint"
+            android:textColor="@color/white"
+            android:textColorHint="@color/hint"
+            android:textCursorDrawable="@color/ash"
+            android:textSize="20dp"
+            android:inputType="textPhonetic"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonbackground"
+        android:text="পরবর্তী"
+        android:textColor="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TRAINKOI</string>
+    <string name="title_activity_page2">Page2</string>
+    <string name="ariving_button_content">আসতে কতক্ষণ লাগবে?</string>
+    <string name="location_button_content">ট্রেন এখন কোথায়?</string>
+    <string name="reaching_button_content">পৌঁছাতে কতক্ষণ লাগবে?</string>
+    <string name="from_edittext_hint">যে স্টেশন হতে যাত্রা শুরু</string>
+    <string name="to_edittext_hint">যে স্টেশনে যাত্রা শেষ</string>
+    <string name="train_edittext_hint">ট্রেনের নাম</string>
+
+    <string-array name="Train_names">
+        <item>লালমনি</item>
+        <item>দ্রতজান</item>
+        <item>Mohanagar Provati</item>
+        <item>সিল্কসিটি</item>
+        <item>Sirajgong Express</item>
+    </string-array>
+
+    <string-array name="Station_names">
+        <item>kamlapur</item>
+        <item>gandaria</item>
+        <item>pagla</item>
+        <item>fatullah</item>
+        <item>narayanganj</item>
+
+    </string-array>
+</resources>
